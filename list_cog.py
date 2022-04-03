@@ -132,3 +132,31 @@ class Kicklist(commands.Cog):
 
         else:
            await ctx.send('something went wrong')
+
+
+# @bot.command()
+# @check_perms()
+# async def test(ctx):
+#     db = sqlite3.connect('stuff.db')
+#     cursor = db.cursor()
+#     cursor.execute('SELECT user_id FROM main')
+#     result = cursor.fetchone()
+#     await ctx.send(result)
+#     # if result is None:
+#     #     sql = ('INSERT INTO main(user_id, score_earned) VALUES(?, ?)')
+#     #     val = (ctx.author.id, 0)
+#     #     await ctx.send(ctx.author.id)
+#     #     await ctx.send(f'User {ctx.author.mention} has been added')
+#     # elif result is not None:
+#     #     sql = (f'UPDATE main SET score_earned = ? WHERE user_id = {ctx.author.id}')
+#     #     result3 = (f'SELECT score_set FROM main WHERE user_id = {ctx.author.id}')
+#     #     await ctx.send('ok')
+#     #     # result2 = cursor.fetchone()
+#     #     # await ctx.send(result2[0])
+#     #     # old_score = int(result2[0])
+#     #     # val = (old_score + 1,)
+#     #     # await ctx.send(f'1 point has been added to {ctx.author.mention}')
+#     # cursor.execute(sql, result3)
+#     # db.commit()
+#     cursor.close()
+#     db.close()

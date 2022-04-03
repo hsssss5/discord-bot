@@ -1,0 +1,51 @@
+SALUTAPE = '<:salutape:841439464453832775>'
+
+MONEKY = '<:moneky:672861737120301066>'
+
+HAPEY = '<:hAPEy:728926173907910686>'
+
+WHOPING = '<:WHOPING:786662215377092650>'
+
+DOGGEZ = '<a:doggez:935340410337898516>'
+
+F1 = '<:f1:931279440279924747>'
+
+F2 = '<:f2:931279453810720779>'
+
+FACE = '<:__:807007374963507200>'
+
+TOBY = '<:ttoby:824360560703045685>'
+
+BAGGEZ = '<:bread_monkey:826022442916118528>'
+
+GIMME = '<:gimme:786582737020649502>'
+
+NON_APES = ('hs', 'toby', '<:ttoby:824360560703045685>')
+
+NON_APES_ID = (239021478891356161, 508426328769429506)
+
+APES_TO_PING = (559964322235678721, 595385697305624578, 622608884766605322, 88719283227471872, 631079721840541697, 327210424581881857, 664362978493202433, 234077437598760970, 236863824420929536, 508426328769429506, 563898088390000650, 216707845587075073, 276875973784502272, 163399420015017984, 762380421756878888, 131745461743648768, 330442831967551489, 209424001573978122, 474493846764388362, 217980551058030593, 196721238045884416, 253846404164747264, 183107230160257024, 455231768421990400, 238120502432890880)
+
+REAL_CHANNEL = 870428287418138624
+
+TEST_CHANNEL = 930810301685837864
+
+TEST_CHANNEL_2 = 719661577481093170
+
+CANCEL = ('c', 'cancel')
+
+PEANUT = ('<:peanut:934464589045854268>', '<:peanut1:934464608784236564>', '<:peanut2:934464630036766760>', '<:peanut3:934464803223793664>')
+
+PING_PONG_FAILED_MESSAGE = ('you failed ping pong like ape', 'where pong wtf', 'learn pong ape', 'moek not pong', 'ape mad bc ape (nonponger)')
+
+SQUARE = ':white_square_button:'
+
+PING_PONG_FAILED_MESSAGE = ('you failed ping pong like ape', 'where pong wtf', 'learn pong ape', 'moek not pong', 'ape mad bc ape (nonponger)')
+
+TTT_WRONG_PICK = ('learn how to count tic tac toe board numbers like u spread stickies - try again', 'ape - first line: 123, second: 456, third: 789 no complica')
+
+BYE_MESSAGE = ('see u in q <:jimbo:838930130394284123>', 'bye moek', '<:sleepape:752083069086859295>')
+
+LOOT = ('silver sticky', 'Professional Killstreak Splendid Screen Kit Fabricator', '6+2', 'hat from surplus', 'gas passer', 'nothing(didnt need mission)', '2box')
+
+NHKHNOC_MESSAGE = ('а может ты пидорас ебаный а не бот', 'соси жопу')
