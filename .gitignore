@@ -1,5 +1,2 @@
-custom_message.pickle
-custom_react.pickle
-random_message.pickle
-hi_message.pickle
-list.db
+*.pickle
+*.db
