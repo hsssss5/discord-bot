@@ -1,8 +1,7 @@
-import asyncio
-import discord
 from discord.ext import commands, tasks
 import sqlite3
 
+#Добавляет людей в базу данных, связывая записи между собой тегами и пользователями, которые делают запись
 
 class Kicklist(commands.Cog):
 
@@ -72,6 +71,8 @@ class Kicklist(commands.Cog):
     async def show_tags(self):       
         stmt = 'SELECT tag FROM tags'        
         return [x[0] for x in self.conn.execute(stmt)]
+
+    #Возможность смотреть записи так и не доделал
 
     async def show_listings(self, discord_name):        
         stmt = 'SELECT link, comment, tag FROM tags_and_listings INNER JOIN listings ON listings.user_id = (?) AND listings.listing_id = tags_and_listings.listing_id INNER JOIN tags ON tags_and_listings.tag_id = tags.tag_id'        

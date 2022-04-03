@@ -3,6 +3,7 @@ import discord
 from discord.ext import commands
 from youtube_dl import YoutubeDL
 
+#Транслирует музыку из ютуба в голосовой чат. На вход может принимать как текст, так и ссылку.
 
 class Music_Cog(commands.Cog):
 
